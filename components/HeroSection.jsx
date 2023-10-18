@@ -9,14 +9,14 @@ const HeroSection = () => {
             <div className="col-span-7 place-self-center text-center sm:text-left">
                 <h1 className=' text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold '>
 
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600">Hello, I'm {""}  </span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600">Hello, I&apos;m {""}  </span>
                     <br></br>
                     <TypeAnimation
                         sequence={[
                             'Yash', 1500,
                             // Same substring at the start will only be typed out once, initially
                             'a Web Developer',
-                            1500, 
+                            1500,
                             'a Mobile Developer',
                             1500,
                             'an Embedded Engineer',
@@ -30,7 +30,7 @@ const HeroSection = () => {
                         repeat={0}
                     /></h1>
                 <p className="text-[#ADB7BE] sm:text-lg text-base  lg:text-xl mb-6">
-                    "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+                    &lsquo;There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...&rsquo;
 
 
                 </p>
