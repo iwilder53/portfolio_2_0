@@ -45,7 +45,7 @@ const projectsData = [
     id: 5,
     title: "Energy Optimization and Monitoring App ",
     description: "This app was made for RC Plasto's Nagpur factory to monitor their energy usage, power reports and savings/loses",
-    image: "/images/projects/5.png",
+    image: "/images/projects/5.PNG",
     tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
