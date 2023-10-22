@@ -11,7 +11,7 @@ const projectsData = [
     description: "V1 of this website created earlier, not live anymore",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/iwilder53",
     previewUrl: "/",
   },
   {
@@ -38,8 +38,8 @@ const projectsData = [
     description: "This project was made for a medical college hostel, where students can view their real time power consumption and monthly bill",
     image: "/images/projects/4.JPG",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "/https://github.com/iwilder53",
+    previewUrl: "/https://play.google.com/store/apps/details?id=com.hetadatain.hostelNKPSIMS&pcampaignid=web_share",
   },
   {
     id: 5,
@@ -47,8 +47,8 @@ const projectsData = [
     description: "This app was made for RC Plasto's Nagpur factory to monitor their energy usage, power reports and savings/loses",
     image: "/images/projects/5.PNG",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "/https://github.com/iwilder53",
+    previewUrl: "/https://play.google.com/store/apps/details?id=com.hetadatain.rc_plasto&pcampaignid=web_share",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const projectsData = [
     image: "/images/projects/6.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/iwilder53/attendance.git",
-    previewUrl: "/",
+    previewUrl: "/https://github.com/iwilder53",
   },
 ];
 
