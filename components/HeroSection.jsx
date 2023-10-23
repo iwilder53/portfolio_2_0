@@ -1,5 +1,5 @@
 "use client"
-import { saveAs } from "file-saver";
+import FileSaver, { saveAs } from "file-saver";
 
 import React from 'react'
 import Image from 'next/image'
@@ -9,8 +9,7 @@ import Link from "next/link";
 const HeroSection = () => {
     const saveFile = () => {
         saveAs(
-            "/public/Resume-Yash-Bagaria",
-            "resume.pdf"
+            "Resume-Yash-Bagaria.pdf", "Resume.pdf"
         );
     };
     return (
