@@ -5,7 +5,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Y Bagaria Portfolio',
-  description: 'Made With NextJS, Portfolio site for potential recruiters',
+  description: 'Portfolio site, showcasing my skills and past projects',
+  keywords: ['Yashkumar Bagaria', 'Yashkumar', 'Bagaria', 'Y Bagaria', 'Yashkumar Rajkumar Bagaria', 'Next.js', 'React', 'JavaScript'],
 }
 
 export default function RootLayout({ children }) {
