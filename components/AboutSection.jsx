@@ -24,6 +24,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>ESP-IDF</li>
+        <li>STM32 - HAL,LL and RTOS</li>
         <li>FreeRTOS</li>
         <li>I2C,SPI,MODBUS,UART etc</li>
         <li>LoRa,LoRaWAN</li>
@@ -39,6 +40,17 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Bachelor in Computer Application - 2022</li>
         <li>Master of Science - 2024</li>
+
+      </ul>
+    )
+  }, {
+    title: "Certifications & Awards",
+    id: "cna",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Student Of The Year 2023-2024 (GH Raisoni CACS)</li>
+        <li>STM32 From Ground Up - Udemy </li>
+        <li>Digital Signal Processing On STM32 - Udemy</li>
 
       </ul>
     )
@@ -65,6 +77,7 @@ const AboutSection = () => {
           <TabButton selectTab={() => handleTabChange("dev_skills")} active={tab === "dev_skills"}>{" "}Dev Skills{" "}</TabButton>
           <TabButton selectTab={() => handleTabChange("embedded_skills")} active={tab === "embedded_skills"}>{" "}Embedded Skills{" "}</TabButton>
           <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>{" "}Education{" "}</TabButton>
+          <TabButton selectTab={() => handleTabChange("cna")} active={tab === "education"}>{" "}Certifications & Awards{" "}</TabButton>
 
         </div>
         <div className="mt-8">

@@ -38,7 +38,7 @@ const HeroSection = () => {
                         repeat={0}
                     /></h1>
                 <p className="text-[#ADB7BE] sm:text-lg text-base  lg:text-xl mb-6">
-                    &lsquo;There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...&rsquo;
+                    &lsquo;人生はベルトコンベアにように流れる...&rsquo;
 
 
                 </p>
