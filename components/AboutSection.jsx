@@ -72,7 +72,8 @@ const AboutSection = () => {
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
         <h2 className="text-4xl font-bold text-white mb-4"> 私について </h2>
         <p className="text-base lg:text-lg">
-          私は現在、英国を拠点とするスタートアップで働いているフラッターエンジニアです。リアルタイム組み込みシステムの研究開発、iOSおよびAndroidアプリの開発と保守に携わっており、NodejsとGoでバックエンドを構築しています。
+          私は現在、英国を拠点とするスタートアップで働いているフラッターエンジニアです。リアルタイム組み込みシステムの研究開発、iOSおよびAndroidアプリの開発と保守に携わっており、NodejsとGoで
+          バックエンドを構築も知っています。
           私はJLPT N3の準備をしており、いつか日本で働いて暮らしたいと思っています。</p>
         <div className='flex flex-row mt-8'>
           <TabButton selectTab={() => handleTabChange("dev_skills")} active={tab === "dev_skills"}>{" "}Dev Skills{" "}</TabButton>
