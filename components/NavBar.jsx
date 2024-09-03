@@ -20,9 +20,12 @@ const navLinks = [{
 const NavBar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
-        <nav className="fixed top-0 right-0 left-0 z-10 bg-[#121212] bg-opacity-90 ">
+        <nav className="fixed top-0 right-0 left-0 z-10 mt-4 ml-4 bg-[#121212] bg-opacity-90 ">
             <div className="flex flex-wrap items-stretch justify-between mx-auto px-4 py-2">
-                <Link className="text-2xl md:text-5xl text-white font-semibold" href="/"> Y Bagaria </Link>
+                <div className="flex flex-col ">
+                    <Link className="text-2xl md:text-5xl text-white font-semibold" href="/"> Y Bagaria </Link>
+                    <p className="text-l md:text-xl text-white font-light" href="/"> ソフトウェアエンジニア</p>
+                </div>
                 <div className="mobile-menu block md:hidden">
 
                     {!navbarOpen ? (
