@@ -70,7 +70,7 @@ const AboutSection = () => {
     <section className="text-white"> <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
       <Image src={"/images/about-image.jpg"} width={500} height={500} />
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-        <h2 className="text-4xl font-bold text-white mb-4"> About Me </h2>
+        <h2 className="text-4xl font-bold text-white mb-4"> 私について </h2>
         <p className="text-base lg:text-lg">
           私は現在、英国を拠点とするスタートアップで働いているフラッターエンジニアです。リアルタイム組み込みシステムの研究開発、iOSおよびAndroidアプリの開発と保守に携わっており、NodejsとGoでバックエンドを構築しています。
           私はJLPT N3の準備をしており、いつか日本で働いて暮らしたいと思っています。</p>
