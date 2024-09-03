@@ -5,7 +5,8 @@ import AboutSection from '@/components/AboutSection'
 import ProjectsSection from '@/components/ProjectSection'
 import EmailSection from '@/components/EmailSection'
 import { Metadata } from 'next'
-
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function Home() {
   return (
     <main className="flex min-h-screen  flex-col bg-[#121212] mx-auto px-2 py-4 ">
@@ -14,6 +15,8 @@ export default function Home() {
       <AboutSection />
       <ProjectsSection></ProjectsSection>
       <EmailSection />
+      <Analytics />
+      <SpeedInsights />
     </main>
   )
 }
