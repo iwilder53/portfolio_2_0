@@ -10,8 +10,14 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function Home() {
   return (
     <main className="flex min-h-screen  flex-col bg-[#121212] mx-auto px-2 py-4 ">
+      <meta property="og:site_name" content="Y Bagaria"></meta>
+      <meta property="og:title" content="">Software Engineer looking for work in Japan</meta>
+      <meta property="og:description" content="Flutterを4年以上使いこなしています自分のスキルを日本に貢献したい" />
+
+      
       <NavBar />
       <div className="container mt-24 mx-auto px-12 py-4">  <HeroSection /></div>
+
       <AboutSection />
       <ProjectsSection></ProjectsSection>
       <EmailSection />
