@@ -17,18 +17,18 @@ const HeroSection = () => {
             <div className="col-span-7 place-self-center text-center sm:text-left">
                 <h1 className=' text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold '>
 
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600">Hello, I&apos;m {""}  </span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600">よこそ, 僕 {""}  </span>
                     <br></br>
                     <TypeAnimation
                         sequence={[
-                            'Yash', 1500,
+                            'Yash（ヤシュ）', 1500,
                             // Same substring at the start will only be typed out once, initially
-                            'a Web Developer',
+                            'ウェブ開発者',
                             1500,
-                            'a Mobile Developer',
+                            'Flutter開発者',
                             1500,
-                            'an Embedded Engineer',
-                            1500, 'Yash', 1500,
+                            '組み込みエンジニア',
+                            1500, 'バガリア　ヤシュ', 1500,
 
 
                         ]
@@ -38,7 +38,12 @@ const HeroSection = () => {
                         repeat={0}
                     /></h1>
                 <p className="text-[#ADB7BE] sm:text-lg text-base  lg:text-xl mb-6">
-                    &lsquo;人生はベルトコンベアにように流れる...&rsquo;
+                    &lsquo;Flutterを4年以上使いこなしています自分のスキルを日本に貢献したい&rsquo;
+
+
+                </p>
+                <p className="text-[#ADB7BE] sm:text-lg text-base  lg:text-xl mb-6">
+                    &lsquo;人生はベルトコンベアにように流れる...マダオ&rsquo;
 
 
                 </p>

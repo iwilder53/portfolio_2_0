@@ -72,7 +72,8 @@ const AboutSection = () => {
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
         <h2 className="text-4xl font-bold text-white mb-4"> About Me </h2>
         <p className="text-base lg:text-lg">
-          I am currently a graduate student at GH Raisoni College of Commerce, Science and Technology. I have worked on Research and Development of Real-Time Embedded Systems for data acquisition and monitoring. I have one invention patent in application and as part of my college studies, I am working on my masters thesis which is titled “Machine Learning on Edge Devices for Real time and localised data processing”.</p>
+          私は現在、英国を拠点とするスタートアップで働いているフラッターエンジニアです。リアルタイム組み込みシステムの研究開発、iOSおよびAndroidアプリの開発と保守に携わっており、NodejsとGoでバックエンドを構築しています。
+          私はJLPT N3の準備をしており、いつか日本で働いて暮らしたいと思っています。</p>
         <div className='flex flex-row mt-8'>
           <TabButton selectTab={() => handleTabChange("dev_skills")} active={tab === "dev_skills"}>{" "}Dev Skills{" "}</TabButton>
           <TabButton selectTab={() => handleTabChange("embedded_skills")} active={tab === "embedded_skills"}>{" "}Embedded Skills{" "}</TabButton>
